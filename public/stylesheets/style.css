@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,800;1,600;1,700&display=swap');
+:root{
+  font-family: 'Nunito Sans', sans-serif;
+  --gris-logo: #3D3D3D;
+  --beige-logo: #FFE57C;
+}
+*{
+  --base-font-family: 'Nunito Sans', sans-serif;
+}
+a:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+     color: inherit;
+}
+/* Header */
+.header-div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--beige-logo);
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+.search-header{
+  margin-bottom: 1%;
+}
+.search-header-btn{
+  background-color: var(--beige-logo);
+  border: none;
+  font-size: 20px;
+}
+.input-header{
+  border:none;
+}
+.nav-link{
+  color: var(--gris-logo);
+  font-weight: bold;
+  font-size: 17px;
+}
+.nav-tabs{
+  border: none;
+}
+
+/* Footer */
+.footer-div{
+  background-color: var(--gris-logo);
+  color: white;
+  padding: 1%;
+}
+.faqs-footer, .rrss-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.faq{
+  color: white;
+  font-size: 18px;
+}
+.rrss{
+  font-size: 30px;
+  color: white;
+  margin: 2%;
+}
+.facebook:hover{
+  color: #3b5998;
+}.instagram:hover{
+  color: #bc2a8d;
+}
+.whatsapp:hover{
+  color: #00bb2d;
+}
+
+
+/* Home */
+.product-home{
+  text-align: center;
+  margin-top:1%;
+  margin-bottom:1%;
+}
+.a-products-home{
+  color: var(--gris-logo);
+  text-decoration: none;
+}
+.product-name{
+  font-weight: bolder;
+  font-size: 20px;
+  display: inline;
+}
+.product-old-price{
+  font-weight: bolder;
+  font-size: 20px;
+  color:var(--beige-logo);
+  text-decoration: line-through;
+  display: inline;
+}
+.product-price{
+  font-weight: bolder;
+  font-size: 25px;
+  color:var(--gris-logo);
+  display: inline;
+}
+.pagination-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+}
+.page-link{
+  color: var(--gris-logo)
+}
+.page-item{
+  border: 1px var(--gris-logo)solid;
+}
+
+/* Detalle de Producto*/
+.div-PD{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+.product-detail-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} 
+.product-name-det{
+  font-weight: bolder;
+  color: var(--gris-logo);
+  padding: 0%;
+  font-size: 35px;
+  margin-bottom: 5%;
+}
+.product-price-det{
+  display: inline;
+  color: var(--gris-logo);
+  font-weight: bolder;
+  padding: 0%;
+  margin-left: 2%;
+}
+.product-old-price-det{
+  display: inline;
+  text-decoration: line-through;  
+  color: var(--beige-logo);
+  font-weight: bolder;
+  padding: 0%;
+}
+.cart-btn-det{
+  background-color: var(--gris-logo);
+  color: white;
+  padding: 1%;
+  font-weight: bolder;
+  margin: 7% 0%;
+}
+.product-description{
+  padding:0%;
+  margin-top: 1%;
+}
+.prod-rel-det{
+  margin: 3% 0%;
+}
+.productos-relacionados-det{
+  font-size: 25px;
+}
+
+/* Login */
+.login-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.login-div{
+  margin: 2%;
+  padding: 3%;
+  text-align: center;
+}
+.login-title{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.label-login{
+  text-align: start;
+}
+.login-form-input{
+  border-radius: 8px;
+}
+.login-btn{
+  background-color: var(--gris-logo);
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.nav-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.nav-pills{
+  text-align: center;
+}
+.login-a
+{
+  background-color: var(--beige-logo);
+}
+.register-a
+{
+  background-color: var(--beige-logo);
+}

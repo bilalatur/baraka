@@ -1,0 +1,35 @@
+<head>
+    <%- include('../partials/head') %>
+  </head>
+  <header>
+    <%- include('../partials/header') %>
+  </header>
+  <body>
+    <div class="container">
+      <div class="row login-row col-12">
+        <div class="col-5 login-div">
+          <div class="nav-form">
+            <ul class="nav nav-pills">
+              <li class="nav-item-form">
+                <a class="nav-link register-a-log" href="/users/login">Iniciar sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link register-a" href="/users/register">Registrarme</a>
+              </li>
+            </ul>
+          </div>
+          <form action="" class="login-form col-12">
+            <label for="name" class="col-12 label-login">Nombre<br><input class="login-form-input col-12" type="text"></label><br>
+            <label for="email" class="col-12 label-login">Email<br><input class="login-form-input col-12" type="email"></label><br>
+            <label for="phone" class="col-12 label-login">Teléfono<br><input class="login-form-input col-12" type="number"></label><br>
+            <label for="password" class="col-12 label-login">Contraseña<br><input class="login-form-input col-12" type="password"></label>
+            <label for="password2" class="col-12 label-login">Repetir contraseña<br><input class="login-form-input col-12" type="password"></label>
+            <button  class="login-btn col-6">Registrarme</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <%- include('../partials/footer') %>
+  </footer>
