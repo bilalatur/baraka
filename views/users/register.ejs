@@ -18,13 +18,17 @@
               </li>
             </ul>
           </div>
-          <form action="" class="login-form col-12">
-            <label for="name" class="col-12 label-login">Nombre<br><input class="login-form-input col-12" type="text"></label><br>
-            <label for="email" class="col-12 label-login">Email<br><input class="login-form-input col-12" type="email"></label><br>
-            <label for="phone" class="col-12 label-login">Teléfono<br><input class="login-form-input col-12" type="number"></label><br>
-            <label for="password" class="col-12 label-login">Contraseña<br><input class="login-form-input col-12" type="password"></label>
-            <label for="password2" class="col-12 label-login">Repetir contraseña<br><input class="login-form-input col-12" type="password"></label>
-            <button  class="login-btn col-6">Registrarme</button>
+          <form action="/users/register" method="POST" class="login-form col-12">
+            <label for="nombre" class="col-12 label-login" name="nombre">Nombre<br><input class="login-form-input col-12" type="text" name="nombre"></label><br>
+            <label for="apellido" class="col-12 label-login" name="apellido">Apellido<br><input class="login-form-input col-12" type="text" name="apellido"></label><br>
+            <label for="email" class="col-12 label-login" name="email">Email<br><input class="login-form-input col-12" type="email" name="email"></label><br>
+            <label for="telefono" class="col-12 label-login" name="telefono">Teléfono<br><input class="login-form-input col-12" type="number" name="telefono"></label><br>
+            <label for="calle" class="col-12 label-login" name="calle">Calle<br><input class="login-form-input col-12" type="text"name="calle"></label><br>
+            <label for="numeracion" class="col-12 label-login" name="numeracion">Numeración<br><input class="login-form-input col-12" type="number" name="numeracion"></label><br>
+            <label for="localidad" class="col-12 label-login" name="localidad">Localidad<br><input class="login-form-input col-12" type="text" name="localidad"></label><br>
+            <label for="contraseña" class="col-12 label-login" name="contraseña">Contraseña<br><input class="login-form-input col-12" type="password" name="contraseña"></label>
+            <label for="contraseña2" class="col-12 label-login" name="contraseña2">Repetir contraseña<br><input class="login-form-input col-12" type="password" name="contraseña2"></label>
+            <button class="login-btn col-6">Registrarme</button>
           </form>
         </div>
       </div>
