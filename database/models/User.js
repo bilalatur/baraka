@@ -30,9 +30,9 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.BOOLEAN
         },
         telefono: {
-            type: dataTypes.DOUBLE
+            type: dataTypes.INTEGER
         },
-        contraseña: {
+        password: {
             type: dataTypes.STRING,
         }
     }

@@ -1,6 +1,6 @@
 let productsController = {
     productDetail: function(req,res){
-        res.render('product-detail');
+        res.render('product-detail',{usuario: req.session.usuarioLogueado});
     }
 }
 

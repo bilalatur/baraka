@@ -44,6 +44,11 @@ a:hover
 .nav-tabs{
   border: none;
 }
+.logout-btn{
+  background-color: var(--gris-logo);
+  color: white;
+  font-weight: bold;
+}
 
 /* Footer */
 .footer-div{
@@ -217,4 +222,13 @@ a:hover
 }
 .remember-login{
   margin: 10px;
+}
+
+/* Profile */
+.profile-div{
+  margin: 2% 4% 2% 4%;
+}
+.order-table{
+  margin: 1%;
+  text-align: center;
 }

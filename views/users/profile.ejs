@@ -1,0 +1,40 @@
+<head>
+    <%- include('../partials/head') %>
+  </head>
+  <header>
+    <%- include('../partials/header') %>
+  </header>
+  <body>
+      <% if (usuario.admin === false) { %>
+        <div class="container profile-div">
+            <div class="row">
+                <div class="col-4">
+                    <h5>Mis datos</h5>
+                    <h5>Nombre: <%= usuario.nombre %> </h5>
+                    <h5>Apellido: <%= usuario.apellido %> </h5>
+                    <h5>Dirección de envío: <%= usuario.calle %> <%= usuario.numero %>  </h5>
+                </div>
+                <div class="col-8 orders-div">
+                    <h5>Mis órdenes</h5>
+                    <div class="orders-titles col-12">
+                        <span class="order-table col-4">Pedido</span>
+                        <span class="order-table col-2">Fecha de compra</span>
+                        <span class="order-table col-2">Total</span>
+                        <span class="order-table col-4">Estado</span>
+                    </div>
+                    <div class="orders-titles col-12">
+                        <span class="order-table col-4">Nueces mariposa x 1kg</span>
+                        <span class="order-table col-2">14/12/2020</span>
+                        <span class="order-table col-2">$1100</span>
+                        <span class="order-table col-4">Entrega pendiente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <% } else { %>
+            <h1>Soy admin</h1>
+        <% } %>
+  </body>
+  <footer>
+    <%- include('../partials/footer') %>
+  </footer>
